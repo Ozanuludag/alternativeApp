@@ -17,7 +17,7 @@ const LoginInput = props => {
       <TextInput
         secureTextEntry={props.title === 'password' ? true : false}
         style={styles.input}
-        placeholder={(props.title === 'number' ? '"5xx xxx xx xx"' : '******')}
+        placeholder={(props.title === 'number' ? '5xx xxx xx xx' : '******')}
       />
     </View>
   );
